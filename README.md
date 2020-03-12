@@ -9,7 +9,9 @@ This is a representation of a karnaugh map in 4 dimensions and will help find th
 #### minterm_generator.py
 This will generate all the minterms given certain conditions. Only works for conditions in a product of sum(POS) expression. The format of the condition is as follows:
 > __1__ - The variable must be true in all cases to produce an output of 1.
+
 > __0__ - The variable must be false in all cases to produce an output of 1.
+
 > __x__ - The variable does not matter to produce an output of 1.
 
 **EG.**
